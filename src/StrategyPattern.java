@@ -7,7 +7,7 @@ import Genres.FantasyGenre;
 import Genres.MysteryGenre;
 import Genres.RomanceGenre;
 
-public class StrategyPatternBook {
+public class StrategyPattern {
     public static void main(String[] args) {
         Book fantasyBook = new Book(new FantasyGenre(), new LeatherCover());
         fantasyBook.printDescription();
